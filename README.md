@@ -97,8 +97,3 @@ objects/{GUID}.pdf#page=2
 ```
 
 Diese Referenzen werden nicht ignoriert. Die jeweilige PDF-Seite wird mit PDFium gerendert und an derselben Position in die OpenBoard-Seite eingesetzt.
-
-## Hinweis
-
-`Pdfium.Net.Free 3.0.1.6` ist laut NuGet inzwischen als deprecated markiert. Es wird hier verwendet, weil es die benötigte kostenlose PDFium-Funktionalität inklusive Rendering und PDF-Seitenimport in einem Paket bereitstellt. Für eine langfristige Version des Exporters sollte die PDFium-Schicht gegen eine aktuell gepflegte PDFium-Bindung ausgetauscht werden.
-
